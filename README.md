@@ -32,3 +32,20 @@ The System Include:
 
 * README contains > 1,000 characters
 * Provides detailed breakdown of project objective, tools used, architecture, grading alignment
+
+# 4. Dataset Quality (50 Points)
+
+| Criteria                 | Status | Notes                                                 |
+| ------------------------ | ------ | ----------------------------------------------------- |
+| ≥ 1,000 Records          | ✅     | Data collected every 15 min; > 96 records/day         |
+| 24-Hour Time Coverage    | ✅     | Daily collection via Prefect schedule                 |
+| Data Completeness ≥ 90%  | ✅     | Verified during ingestion using quality checks in Prefect |
+| No `object` Columns      | ✅     | Parquet format with clearly defined schema            |
+| No Duplicate Records     | ✅     | Deduplication logic in Prefect ETL pipeline           |
+
+# 5. Schema Consistency (10 Points)
+
+* Structured fields:
+    * `timestamp` (datetime), `latitude`, `longitude`, `brightness`, `confidence`
+    * `temperature`, `humidity`, `wind_speed` – all numeric
+* Data types enforced via Parquet and LakeFS schema tracking
