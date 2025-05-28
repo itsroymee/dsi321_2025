@@ -62,7 +62,7 @@ The System Include:
 * Features:
     * Interactive map
     * Zoomable and filterable timeline!
-    * [DSI324 wild fire](https://github.com/user-attachments/assets/495a2939-abdc-4280-9e46-161860a02b76)
+  [DSI324 wild fire](https://github.com/user-attachments/assets/495a2939-abdc-4280-9e46-161860a02b76)
 
 ## 2. Machine Learning
 
@@ -73,6 +73,6 @@ The System Include:
     * Feature importance analysis highlights temperature and humidity as key indicators
     * Correlation matrix supports feature relationships
 * Tools: Scikit-learn, Matplotlib!
-* [14](https://github.com/user-attachments/assets/5eb21056-200e-4290-9784-bb663c5d0760)
+[14](https://github.com/user-attachments/assets/5eb21056-200e-4290-9784-bb663c5d0760)
 
 
