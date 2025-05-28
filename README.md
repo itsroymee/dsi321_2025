@@ -9,3 +9,26 @@ The System Include:
 - Data Versioning with LakeFS
 - Interactive map-based dashboard (Streamlit+Folium)
 - Fire prediction analysis using Random Forest
+
+# Part 1: Technical Implementation
+
+## 1. Repository Setup
+
+* Repository created within the first week.
+* Repository name: dsi321_2025
+* File Structure:
+    * `data/` – Weather data in Parquet format
+    * `visualization/shape_file/` – Geospatial shape files
+    * `machine_learning.ipynb` – ML model
+    * `api/` – Scripts for ETL (e.g., `firmapiflow.py`, `apiweatherflow.py`)
+    * `visualization/` – Streamlit dashboard
+
+## 2. Commit Frequency
+
+* Maintained a steady commit frequency:
+    * ≥ 5 commits/week for 3 consecutive weeks
+
+## 3. README Quality
+
+* README contains > 1,000 characters
+* Provides detailed breakdown of project objective, tools used, architecture, grading alignment
