@@ -75,3 +75,23 @@ The System Include:
 * Tools: Scikit-learn, Matplotlib!
 ![Image](https://github.com/user-attachments/assets/4230aa79-e33a-4917-b23a-4c89e19ecf0b)
 
+# 🛠️ Tools & Architecture
+
+| Component          | Tool/Technology        |
+|--------------------|------------------------|
+| Data Ingestion     | Prefect                |
+| Data Storage       | LakeFS + Parquet       |
+| Dashboard          | Streamlit + Folium     |
+| Geospatial Handling| GeoPandas              |
+| Machine Learning   | Scikit-learn (RandomForest) |
+| Metadata Management| CKAN                   |
+
+---
+
+## ✅ Outcomes
+
+* Automated ETL pipeline for real-time fire + weather data
+* Complete interactive dashboard for decision makers
+* Validated model identifying environmental factors affecting fire intensity
+* Designed with scalability and data governance in mind
+
