@@ -33,7 +33,7 @@ The System Include:
 * README contains > 1,000 characters
 * Provides detailed breakdown of project objective, tools used, architecture, grading alignment
 
-# 4. Dataset Quality (50 Points)
+# 4. Dataset Quality
 
 | Criteria                 | Status | Notes                                                 |
 | ------------------------ | ------ | ----------------------------------------------------- |
@@ -43,9 +43,36 @@ The System Include:
 | No `object` Columns      | ✅     | Parquet format with clearly defined schema            |
 | No Duplicate Records     | ✅     | Deduplication logic in Prefect ETL pipeline           |
 
-# 5. Schema Consistency (10 Points)
+# 5. Schema Consistency
 
 * Structured fields:
     * `timestamp` (datetime), `latitude`, `longitude`, `brightness`, `confidence`
     * `temperature`, `humidity`, `wind_speed` – all numeric
 * Data types enforced via Parquet and LakeFS schema tracking
+
+# Part 2: Project Report
+
+## 1. Data Visualization
+
+* Tools used: Streamlit, Folium, GeoPandas
+* Key Visuals:
+    * Heatmap of fire hotspots by province
+    * Correlation matrix (weather vs brightness)
+    * Scatter plots (e.g., temp vs brightness)
+* Features:
+    * Interactive map
+    * Zoomable and filterable timeline!
+    * [DSI324 wild fire](https://github.com/user-attachments/assets/495a2939-abdc-4280-9e46-161860a02b76)
+
+## 2. Machine Learning
+
+* Model: Random Forest Regression
+* Target: `brightness`
+* Features: `temperature`, `humidity`, `wind_speed`
+* Results:
+    * Feature importance analysis highlights temperature and humidity as key indicators
+    * Correlation matrix supports feature relationships
+* Tools: Scikit-learn, Matplotlib!
+* [14](https://github.com/user-attachments/assets/5eb21056-200e-4290-9784-bb663c5d0760)
+
+
